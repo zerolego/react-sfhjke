@@ -27,12 +27,14 @@ const menuItemElement1 = (
 
 name = 'Mocha Cafe Latte';
 
+
 // After you do this, add menuItemElement2, menuItemElement3, and menuItemElement4 in the definition of the menu element:
 
-const menuElement = (
+const menuElement = ()
   <div>
-    <MenuItem name="foo" />
+    
     {menuItemElement1}
+    {menuItemElement2}
   </div>
 );
 
